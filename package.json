@@ -1,0 +1,50 @@
+{
+	"name": "recoildemo",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject"
+	},
+	"author": "Stefan Bobrowski",
+	"license": "MIT",
+	"dependencies": {
+		"react": "^17.0.1",
+		"react-dom": "^17.0.1",
+		"react-router-dom": "^5.2.0",
+		"recoil": "^0.1.2",
+		"sass": "^1.30.0"
+	},
+	"devDependencies": {
+		"eslint-config-prettier": "^7.1.0",
+		"eslint-config-standard": "^16.0.2",
+		"eslint-config-standard-react": "^11.0.1",
+		"eslint-plugin-jsx-a11y": "^6.4.1",
+		"eslint-plugin-node": "^11.1.0",
+		"eslint-plugin-prettier": "^3.3.0",
+		"eslint-plugin-promise": "^4.2.1",
+		"eslint-plugin-react": "^7.21.5",
+		"eslint-plugin-standard": "^5.0.0",
+		"prettier": "^2.2.1",
+		"react-scripts": "^4.0.1",
+		"recoil-logger": "^1.1.1"
+	},
+	"eslintConfig": {
+		"extends": "react-app"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	}
+}
